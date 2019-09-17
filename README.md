@@ -42,6 +42,10 @@ crontab -e
 
 00 15 * * * python /home/gitfile/gogit/main.py #这边执行路径按自己的库目录而改动
 
+#每隔5分钟
+*/5 * * * * python /home/gitfile/gogit/main.py #这边执行路径按自己的库目录而改动 
+
+
 #保存退出
 
 :wq
